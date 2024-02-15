@@ -1,10 +1,23 @@
 # Custom Form Builder Documentation
 
-## Introduction
+## Overview of the Custom Form Builder
 
-- Overview of the custom form builder.
-- Purpose and benefits of using the form builder.
-- Brief description of the provided implementation and form configuration.
+The custom form builder provided here offers a straightforward solution for setting up simple forms in React applications without relying on libraries like `react-hook-form`. It provides users with complete control over the form components, allowing for easy customization of styles and behaviors according to specific project requirements.
+
+### Key Features:
+
+- **Simplicity**: The form builder simplifies the process of creating forms by abstracting away complex form management logic.
+- **Customization**: Users have the flexibility to customize the form components, including styles and behaviors, to suit their application's design and functionality needs.
+- **Control**: Unlike some form libraries, this form builder offers developers total control over the form structure and elements, empowering them to create forms precisely tailored to their project requirements.
+- **Independence**: By not relying on external libraries like `react-hook-form`, the custom form builder avoids potential dependencies and compatibility issues, ensuring a streamlined development experience.
+
+### Use Cases:
+
+- Setting up basic forms such as contact forms, login forms, or registration forms.
+- Implementing forms in projects where external form management libraries are not preferred or feasible.
+- Customizing form components extensively while maintaining simplicity and flexibility.
+
+In summary, the custom form builder provides a convenient solution for developers looking to quickly set up simple forms in React applications while retaining full control over form components and customization options.
 
 ## Getting Started
 
@@ -25,7 +38,7 @@
    - Description: Label for the submit button.
    - Type: String
 4. `formClassNames`:
-   - Description: Custom CSS class names for different elements of the form.
+   - Description: Custom CSS class names for different elements of the form. You can add custom styles for each inputs field by adding a field with the input's key as attribute.
    - Type: Object
 
 ### Example Usage
@@ -94,8 +107,3 @@ export const formConfig: Record<string, FormFieldEntity> = {
   // Add more fields as needed
 };
 ```
-
-## Conclusion
-
-- Recap of the features and benefits.
-- Final thoughts or considerations.
