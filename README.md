@@ -4,25 +4,6 @@
 
 The custom form builder provided here offers a straightforward solution for setting up simple forms in React applications without relying on libraries like `react-hook-form`. It provides users with complete control over the form components, allowing for easy customization of styles and behaviors according to specific project requirements.
 
-### Key Features:
-
-- **Simplicity**: The form builder simplifies the process of creating forms by abstracting away complex form management logic.
-- **Customization**: Users have the flexibility to customize the form components, including styles and behaviors, to suit their application's design and functionality needs.
-- **Control**: Unlike some form libraries, this form builder offers developers total control over the form structure and elements, empowering them to create forms precisely tailored to their project requirements.
-- **Independence**: By not relying on external libraries like `react-hook-form`, the custom form builder avoids potential dependencies and compatibility issues, ensuring a streamlined development experience.
-
-### Use Cases:
-
-- Setting up basic forms such as contact forms, login forms, or registration forms.
-- Implementing forms in projects where external form management libraries are not preferred or feasible.
-- Customizing form components extensively while maintaining simplicity and flexibility.
-
-In summary, the custom form builder provides a convenient solution for developers looking to quickly set up simple forms in React applications while retaining full control over form components and customization options.
-
-## Getting Started
-
-- Installation instructions.
-- Importing the form component and configuration file.
 
 ## Form Component
 
